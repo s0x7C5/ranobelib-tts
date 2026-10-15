@@ -11,7 +11,8 @@ Userscript для [ranobelib.me](https://ranobelib.me): читает вслух 
 | Браузер | Русские голоса | Качество |
 |---|---|---|
 | **Microsoft Edge** | Светлана Online (Natural), Дмитрий Online (Natural) | Нейросетевые, звучат естественно — **рекомендуется** |
-| Chrome, Яндекс Браузер | Microsoft Irina, Microsoft Pavel | Системные, «роботизированные» |
+| Google Chrome | Microsoft Irina, Microsoft Pavel, обычно ещё Google русский | Google русский — средне, остальные «роботизированные» |
+| Яндекс Браузер | Microsoft Irina, Microsoft Pavel | Системные, «роботизированные» |
 
 Голос Алисы в Яндекс Браузере страницам недоступен — его использует только встроенная кнопка «Озвучить».
 
@@ -20,8 +21,14 @@ Userscript для [ranobelib.me](https://ranobelib.me): читает вслух 
 ## Установка
 
 1. Откройте браузер (лучше Edge) и установите расширение [Tampermonkey](https://www.tampermonkey.net/).
-2. Нажмите **[Установить скрипт](https://raw.githubusercontent.com/s0x7C5/ranobelib-tts/main/ranobelib-tts.user.js)** — Tampermonkey откроет окно установки, подтвердите.
-3. Откройте любую главу на ranobelib.me — в правом нижнем углу появится панель.
+2. **Разрешите Tampermonkey запускать скрипты** — без этого в Chrome, Edge, Яндекс Браузере и других браузерах на Chromium скрипт молча не запускается:
+   - откройте страницу расширений: `chrome://extensions` (Chrome), `edge://extensions` (Edge) или `browser://extensions` (Яндекс Браузер);
+   - у Tampermonkey нажмите **«Подробнее»** и включите **«Разрешить пользовательские скрипты»** (Allow User Scripts);
+   - если такого переключателя нет — включите **«Режим разработчика»** в правом верхнем углу страницы расширений.
+3. Нажмите **[Установить скрипт](https://raw.githubusercontent.com/s0x7C5/ranobelib-tts/main/ranobelib-tts.user.js)** — Tampermonkey откроет окно установки, подтвердите.
+4. Откройте любую главу на ranobelib.me (или обновите уже открытую) — в правом нижнем углу появится панель.
+
+> **Панель не появилась?** Почти всегда причина в пункте 2. Также проверьте, что скрипт включён в меню Tampermonkey.
 
 Обновления Tampermonkey подтягивает сам из этого репозитория (при повышении `@version`).
 
