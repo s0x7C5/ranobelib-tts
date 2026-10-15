@@ -20,8 +20,16 @@ Userscript для [ranobelib.me](https://ranobelib.me): читает вслух 
 ## Установка
 
 1. Откройте браузер (лучше Edge) и установите расширение [Tampermonkey](https://www.tampermonkey.net/).
-2. В Tampermonkey: **Создать новый скрипт** → вставьте содержимое [`ranobelib-tts.user.js`](ranobelib-tts.user.js) → **Сохранить**.
+2. Нажмите **[Установить скрипт](https://raw.githubusercontent.com/s0x7C5/ranobelib-tts/main/ranobelib-tts.user.js)** — Tampermonkey откроет окно установки, подтвердите.
 3. Откройте любую главу на ranobelib.me — в правом нижнем углу появится панель.
+
+Обновления Tampermonkey подтягивает сам из этого репозитория (при повышении `@version`).
+
+<details>
+<summary>Установка вручную</summary>
+
+В Tampermonkey: **Создать новый скрипт** → вставьте содержимое [`ranobelib-tts.user.js`](ranobelib-tts.user.js) → **Сохранить**. Автообновление при этом тоже будет работать.
+</details>
 
 ## Управление
 

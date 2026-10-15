@@ -3,7 +3,11 @@
 // @namespace    helper.ranobelib.tts
 // @author       s0x7C5
 // @license      MIT
-// @version      1.0
+// @homepageURL  https://github.com/s0x7C5/ranobelib-tts
+// @supportURL   https://github.com/s0x7C5/ranobelib-tts/issues
+// @downloadURL  https://raw.githubusercontent.com/s0x7C5/ranobelib-tts/main/ranobelib-tts.user.js
+// @updateURL    https://raw.githubusercontent.com/s0x7C5/ranobelib-tts/main/ranobelib-tts.user.js
+// @version      1.1
 // @description  Читает вслух текст главы на ranobelib.me (Web Speech API): подсветка абзаца, выбор голоса, скорость, автопереход к следующей главе.
 // @match        https://ranobelib.me/*
 // @grant        none
